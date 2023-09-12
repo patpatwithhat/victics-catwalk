@@ -24,15 +24,13 @@ git clone https://github.com/patpatwithhat/victics-catwalk.git
 cd victics-catwalk
 ```
 3. Add .env file with your api key from the [The Cat API](https://thecatapi.com/)
-
-4a. Install the necessary packages and run:
+4. Install the necessary packages and run:
 ```
 npm init
 node app.js
 ```
-
-4b. Run with Docker:
+5. Or run with Docker:
 ```
 docker build -t victics_catwalk .
-docker run -d -p 8080:3000 cat-slideshow  
+docker run -d -p 8080:3000 victics_catwalk  
 ```
