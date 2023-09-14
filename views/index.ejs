@@ -10,17 +10,23 @@
 
 <body>
   <header>
+    <img src="/cat.svg" alt="catwalk logo" class="logo">
     <h1>Victic's Catwalk</h1>
+
   </header>
   <main>
-    <div class="motivation">
-      If you're sad, watch a cat!
+    <div class="motivation-container">
+      <div class="motivation">
+        If you're sad, watch a cat!
+      </div>
     </div>
-    <div class="slideshow-container">
-      <img id="catImage" src="<%= image %>" alt="Cat Image">
-      <br>
-      <button id="nextButton">More cats!</button>
+
+    <div class="item">
+      <div class="polaroid"><img src="<%= image %>">
+        <!-- <div class="caption">I Miss London</div>-->
+      </div>
     </div>
+    <button id="nextButton">More cats!</button>
   </main>
   <script src="/script.js"></script>
 </body>
